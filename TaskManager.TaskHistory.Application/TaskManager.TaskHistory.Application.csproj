@@ -1,0 +1,14 @@
+﻿<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup>
+    <TargetFramework>net8.0</TargetFramework>
+    <ImplicitUsings>enable</ImplicitUsings>
+    <Nullable>enable</Nullable>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <ProjectReference Include="..\TaskManager.TaskHistory.Domain\TaskManager.TaskHistory.Domain.csproj" />
+    <ProjectReference Include="..\TaskManager.Tasks.Domain\TaskManager.Tasks.Domain.csproj" />
+  </ItemGroup>
+
+</Project>
